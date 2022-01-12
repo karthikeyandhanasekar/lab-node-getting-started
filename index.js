@@ -34,7 +34,7 @@ class SortedList {
   }
 
   sum() {
-    if(this.length == 0) throw new Error("EmptySortedList");
+    if(this.length == 0) return 0;
     else  return this.items.reduce((output,ele)=> output+ele)
 
 

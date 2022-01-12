@@ -10,7 +10,7 @@ class SortedList {
     this.length = this.items.length
   }
   get(index) {
-    if (index > length) throw new Error("OutOfBounds")
+    if (index > this.length) throw new Error("OutOfBounds")
     else return this.items.indexOf(index)
 
   }
